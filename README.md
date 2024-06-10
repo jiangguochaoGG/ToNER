@@ -1,5 +1,17 @@
 # ToNER
 ![model](./figure/model.png)
+
+If you find our work useful for your research, please cite the following paper:
+```
+@inproceedings{jiang2024toner,
+  title={ToNER: Type-oriented Named Entity Recognition with Generative Language Model},
+  author={Jiang, Guochao and Luo, Ziqin and Shi, Yuchen and Wang, Dixuan and Liang, Jiaqing and Yang, Deqing},
+  booktitle={Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+  pages={16251--16262},
+  year={2024}
+}
+```
+
 ## Environment
 Create a new Python virtual environment for ToNER:
 ```bash
@@ -39,3 +51,4 @@ Please review `main.py` and `config.yaml` for your ToNER training, and change so
 ```bash
 accelerate launch --config_file config.yaml --debug main.py
 ```
+
