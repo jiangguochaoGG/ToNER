@@ -1,7 +1,7 @@
 # ToNER
 ![model](./figure/model.png)
 
-If you find our work useful for your research, please cite the following paper:
+If you find our work useful for your research, please cite the following paper [ToNER](https://aclanthology.org/2024.lrec-main.1412/):
 ```
 @inproceedings{jiang2024toner,
   title={ToNER: Type-oriented Named Entity Recognition with Generative Language Model},
